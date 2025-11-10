@@ -62,26 +62,24 @@ body {
     font-family: 'Manrope', sans-serif;
     background:  #0b0f1b;
     color: #fff;
-    width: 100%;
+    /*width: 100%;*/
+    box-sizing: border-box;
 }
 
-.padding-wrapper {
+.header-wrapper {
     padding: 71px 220px 0 220px;
+    width: 100%;
 }
 
 .header {
     width: 100%;
-    height: 71px;
-    padding: 20px 60px;
-}
-
-.wrapper {
+    height: 51px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
-    width: 100%;
 }
+
+
 
 .header_left {
     display: flex;
@@ -106,7 +104,8 @@ body {
     gap: 45px;
     border: 1px solid #FFFFFF54;
     background-color: #FFFFFF0A;
-    padding: 17px 79px 18px 48px;
+    height: 51px;
+    padding: 0 48px;
     border-radius: 56px;
     box-sizing: border-box;
 }
@@ -132,10 +131,10 @@ body {
     margin-right: 0;
 }
 
-.group-1 {
+.header_right {
     display: flex;
     align-items: center;
-    gap: 12px;
+    /*gap: 12px;*/
     white-space: nowrap;
     flex-wrap: nowrap
 }
@@ -155,9 +154,10 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     color: #ccc;
+    margin: 0 35px;
 }
 
 .header_help {
@@ -168,7 +168,6 @@ body {
     line-height: 100%;
     letter-spacing: 0;
     text-align: center;
-
 }
 
 .header_button {
@@ -185,32 +184,28 @@ body {
     color: #ccc;
     font-size: 18px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
+    margin-left: 47px;
 }
 
 .main {
     width: 100%;
 }
 
-.wrapper_up {
-    padding: 0 0 0 50px;
-}
 
-.block-left {
-
-}
 
 h1 {
     font-weight: 400;
-    font-style: Regular;
     font-size: 80px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 
 }
 
-
+html{
+    width: 100%;
+    /*!*scrollbar-gutter:none*!   как убрать линию скролла*/
+}
 
 
 
